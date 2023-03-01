@@ -35,11 +35,7 @@ const EmotionBubble = ({ name, logo, description, even, imageReference }) => {
       >
         <h3 className="">{name}</h3>
         <div className="card-image">
-          <img
-            src={`../static/Ilustrations/${logo}`}
-            alt="name"
-            title={imageReference}
-          />
+          <img src={logo} alt="name" title={imageReference} />
         </div>
         <FontAwesomeIcon icon="fa-solid fa-sheep" />
       </button>
